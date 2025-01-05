@@ -1,0 +1,150 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fffaFB;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Arrow Styles */
+.right-arrow,
+.left-arrow {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(72, 27, 176);
+  font-size: 25px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -20px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.right-arrow {
+  right: 140px;
+}
+
+.left-arrow {
+  right: 80px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.3);
+}
+
+/* Horizontal Scrolling Menu */
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Detail Image */
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+
+/* Hero Banner Image */
+.hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 700px;
+  height: 900px;
+  margin-top: -330px;
+}
+
+/* Exercise Card */
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid rgb(72, 27, 176);
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+.bodyPart-card {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1);
+}
+
+/* Search Button Hover */
+.search-btn:hover {
+  color: rgb(72, 27, 176) !important;
+  border: 1px solid rgb(72, 27, 176) !important;
+}
+
+/* Exercise Video */
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1200px) {
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: static !important;
+  }
+
+  .hero-banner-img {
+    display: none;
+  }
+
+  .exercise-card {
+    width: 320px;
+  }
+
+  .exercise-video {
+    width: 320px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .exercise-card {
+    width: 280px;
+  }
+}
