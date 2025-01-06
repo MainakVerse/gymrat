@@ -1,4 +1,5 @@
 # GymRat
 
 ## Basic Architecture of React Application:
-![image](https://github.com/user-attachments/assets/8713e896-de5f-4203-ae55-3342d3c7f3ea)
+![image](https://github.com/user-attachments/assets/36fbb572-b6c6-4ac0-92d5-afd6016e0841)
+
