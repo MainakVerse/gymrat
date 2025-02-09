@@ -1,4 +1,6 @@
 # GymRat
+![image](https://github.com/user-attachments/assets/9d2557e1-75a8-4b99-9fb9-f2d8611d075f)
+
 
 ## Basic Workflow of React Application:
 ![image](https://github.com/user-attachments/assets/36fbb572-b6c6-4ac0-92d5-afd6016e0841)
